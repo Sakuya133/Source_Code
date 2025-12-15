@@ -20,9 +20,9 @@ public class SistemRental {
         daftarKendaraan.add(new Sepeda("Polygon", "Strattos S5", 2023, "Balap"));
         daftarKendaraan.add(new Sepeda("Thrill", "Ricochet", 2022, "BMX"));
 
-        daftarPenyewa.add(new Penyewa("Zul"));
-        daftarPenyewa.add(new Penyewa("Luzi"));
-        daftarPenyewa.add(new Penyewa("Nean"));
+        daftarPenyewa.add(new Penyewa("Tsakuya"));
+        daftarPenyewa.add(new Penyewa("Yaiba"));
+        daftarPenyewa.add(new Penyewa("Akasa"));
 
         daftarPenyewa.get(0).sewaKendaraan(daftarKendaraan.get(0)); 
   
